@@ -18,10 +18,10 @@ body:
   - type: textarea
     id: template
     attributes:
-      label: 2. Template
-      description: Style/format - Link a design template or a page to copy (e.g. a Consulting page or a Training page).
+      label: 2. Style/format
+      description: Link a design template or a page to copy (e.g. a Consulting page or a Training page).
       placeholder:
-      value: "{{ PAGE TEMPLATE }}"
+      value: "{{ PAGE TEMPLATE LINK }}"
     validations:
       required: true
   - type: textarea
