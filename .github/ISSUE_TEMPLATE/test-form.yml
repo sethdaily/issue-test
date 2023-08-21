@@ -21,15 +21,16 @@ body:
       label: 2. URI
       description: Use keywords and make it [as short as possible](https://www.ssw.com.au/rules/create-friendly-short-urls/). Use [kebab case](https://www.ssw.com.au/rules/use-dashes-in-urls) (e.g. use-dashes-and-lowercase)
       placeholder: write-your-uri-here
-      value: "write-your-uri-here"
+      value: "{{ URI }}"
     validations:
       required: true
   - type: textarea
-    id: template
+    id: title
     attributes:
       label: 3. Title
-      description: Style/format - Link a design template or a page to copy (e.g. a Consulting page or a Training page).
+      description: Details: Must read well and include keywords (Google-able).
+      Length: under 60 characters  
       placeholder: Link your template here
-      value: "{{ PAGE TEMPLATE }}"
+      value: "{{ TITLE }}"
     validations:
       required: true
