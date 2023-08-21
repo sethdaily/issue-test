@@ -2,10 +2,10 @@ name: New webpage
 description: Start here to request/create a new page
 title: "✨ [Title]: "
 body:
-  - type: markdown
+ - type: markdown
     attributes:
       value: |
-        Start here to request/create a new page
+        Thanks for taking the time to fill out this bug report!
   - type: textarea
     id: question
     attributes:
