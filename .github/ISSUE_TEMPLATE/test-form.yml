@@ -29,6 +29,7 @@ body:
     attributes:
       label: 3. Title
       description: "Details: Must read well and include keywords (Google-able).  
+      
       Length: Must be under 60 characters"  
       placeholder: Your page title
       value: "{{ TITLE }}"
