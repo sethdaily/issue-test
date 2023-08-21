@@ -19,8 +19,17 @@ body:
     id: URI
     attributes:
       label: URI
-      description: Concise and including keywords. Use [kebab case](https://www.ssw.com.au/rules/use-dashes-in-urls) (e.g. use-dashes-and-lowercase)
+      description: Use keywords and make it [as short as possible](https://www.ssw.com.au/rules/create-friendly-short-urls/). Use [kebab case](https://www.ssw.com.au/rules/use-dashes-in-urls) (e.g. use-dashes-and-lowercase)
       placeholder: write-your-uri-here
       value: "write-your-uri-here"
+    validations:
+      required: true
+  - type: textarea
+    id: template
+    attributes:
+      label: Template
+      description: Style/format - Link a design template or a page to copy (e.g. a Consulting page or a Training page).
+      placeholder: Link your template here
+      value: "{{ PAGE TEMPLATE }}"
     validations:
       required: true
