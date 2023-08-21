@@ -74,19 +74,20 @@ body:
           (H2) How SSW can help: Customized technology solutions
 
 
-Images – Under each image, note the caption and alt text (describes the image to search engines)  
-[Alt text generator](https://alttext.in/)
+      Images – Under each image, note the caption and alt text (describes the image to search engines)  
+      
+      [Alt text generator](https://alttext.in/)
 
-  - Example:  
-  Image - <cat-flying.jpg>  
-  Caption - Figure: A cat soars majestically above New York City.  
-  Alt text - cat flying above city  
+          * Example:  
+          Image - <cat-flying.jpg>  
+          Caption - Figure: A cat soars majestically above New York City.  
+          Alt text - cat flying above city  
   
 
-Text - where possible, add links or hyperlinks to relevant SSW pages. 'Internal linking' gives pages credibility for search engines.  
+      Text - where possible, add links or hyperlinks to relevant SSW pages. 'Internal linking' gives pages credibility for search engines.  
 
-  - Example:  
-  We are experts in [Power BI](https://www.ssw.com.au/consulting/power-bi). Our developers are also experienced in [database development](https://www.ssw.com.au/consulting/database-development).
+          * Example:  
+          We are experts in [Power BI](https://www.ssw.com.au/consulting/power-bi). Our developers are also experienced in [database development](https://www.ssw.com.au/consulting/database-development).
      "
   - type: textarea
     id: content
