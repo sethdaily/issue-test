@@ -1,9 +1,6 @@
 name: New webpage
 description: Start here to request/create a new page
 title: "✨ [Title]: "
-labels:
-projects:
-assignees:
 body:
   - type: markdown
     attributes:
