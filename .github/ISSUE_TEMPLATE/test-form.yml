@@ -72,10 +72,10 @@ body:
     id: content
     attributes:
       label: 7. Content
-      description: "Content: Follow these guidelines:  
+      description: "Follow these guidelines:  
 
       
-      Headings – Next to each heading, note in (parentheses) an HTML title tag - H1 for the main title (only 1 per page) H2 for subheadings, H3 etc... Each heading must include keywords.  
+      **Headings** – Next to each heading, note in (parentheses) an HTML title tag - H1 for the main title (only 1 per page) H2 for subheadings, H3 etc... Each heading must include keywords.  
         
           * [Example](https://www.ssw.com.au/industry/educational):  
           
