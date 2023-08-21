@@ -18,9 +18,9 @@ body:
   - type: textarea
     id: URI
     attributes:
-      label: Template
+      label: URI
       description: Concise and including keywords. Use [kebab case](https://www.ssw.com.au/rules/use-dashes-in-urls) (e.g. use-dashes-and-lowercase)
-      placeholder: Link your template here
-      value: "{{ PAGE TEMPLATE }}"
+      placeholder: write-your-uri-here
+      value: "write-your-uri-here"
     validations:
       required: true
