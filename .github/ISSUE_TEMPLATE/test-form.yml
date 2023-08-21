@@ -1,0 +1,20 @@
+name: New webpage
+description: Start here to request/create a new page
+title: "✨ [Title]: "
+labels:
+projects:
+assignees:
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Start here to request/create a new page
+  - type: textarea
+    id: question
+    attributes:
+      label: Template
+      description: Link a design template or a page to copy (e.g. a Consulting page or a Training page).
+      placeholder: {{ PAGE TEMPLATE }}
+      value: "A bug happened!"
+    validations:
+      required: true
