@@ -10,7 +10,7 @@ body:
     id: cc
     attributes:
       label: 1. People in the loop
-      description: People cced - @ tag the people involved
+      description: @ tag the people involved/cc'd
       placeholder:
       value: "{{ PERSON THIS TASK IS FROM }}, {{ PERSON YOU ARE GIVING THIS TASK }}"
     validations:
