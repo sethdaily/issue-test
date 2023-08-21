@@ -100,6 +100,7 @@ body:
       Text - where possible, add links or hyperlinks to relevant SSW pages. 'Internal linking' gives pages credibility for search engines.  
 
           * Example:  
+          
           We are experts in [Power BI](https://www.ssw.com.au/consulting/power-bi). Our developers are also experienced in [database development](https://www.ssw.com.au/consulting/database-development).
      "
   - type: textarea
