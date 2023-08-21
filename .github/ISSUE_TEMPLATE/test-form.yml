@@ -20,8 +20,8 @@ body:
     attributes:
       label: 2. Style/format
       description: Link a design template or a page to copy (e.g. a Consulting page or a Training page).
-      placeholder:
-      value: "{{ PAGE TEMPLATE LINK }}"
+      placeholder: "{{ PAGE TEMPLATE LINK }}"
+      value:
     validations:
       required: true
   - type: input
@@ -31,8 +31,8 @@ body:
       description: "Details: Concise and including keywords. Use [kebab case](https://www.ssw.com.au/rules/use-dashes-in-urls) (e.g. use-dashes-and-lowercase). 
       
       Length: [As short as possible](https://www.ssw.com.au/rules/create-friendly-short-urls/)"
-      placeholder:
-      value: "{{ URI }}"
+      placeholder: "{{ URI }}"
+      value:
     validations:
       required: true
   - type: input
@@ -42,8 +42,8 @@ body:
       description: "Details: Must read well and include keywords (Google-able).
       
       Length: Must be under 60 characters"  
-      placeholder:
-      value: "{{ TITLE }}"
+      placeholder: "{{ TITLE }}"
+      value:
     validations:
       required: true
   - type: textarea
@@ -55,8 +55,8 @@ body:
       Length: under 150 characters. 
       
       Tip: You can give ChatGPT your content and ask for a meta description."
-      placeholder:
-      value: "{{ META DESCRIPTION }}"
+      placeholder: "{{ META DESCRIPTION }}"
+      value:
     validations:
       required: true
   - type: textarea
@@ -64,8 +64,8 @@ body:
     attributes:
       label: 6. Related URLs
       description: If applicable, related pages on the SSW website.
-      placeholder:
-      value: "{{ RELATED URLS }}"
+      placeholder: "{{ RELATED URLS }}"
+      value:
     validations:
       required: true
   - type: textarea
@@ -105,7 +105,7 @@ body:
           
           We are experts in [Power BI](https://www.ssw.com.au/consulting/power-bi). Our developers are also experienced in [database development](https://www.ssw.com.au/consulting/database-development).
      "
-      placeholder:
-      value: "{{ YOUR PAGE CONTENT }}"
+      placeholder: "{{ YOUR PAGE CONTENT }}"
+      value:
     validations:
       required: true
