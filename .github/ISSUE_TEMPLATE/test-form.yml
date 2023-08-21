@@ -15,7 +15,7 @@ body:
       value: "{{ PERSON THIS TASK IS FROM }}, {{ PERSON YOU ARE GIVING THIS TASK }}"
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: template
     attributes:
       label: 2. Style/format
@@ -24,7 +24,7 @@ body:
       value: "{{ PAGE TEMPLATE LINK }}"
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: URI
     attributes:
       label: 3. URI
@@ -35,7 +35,7 @@ body:
       value: "{{ URI }}"
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: title
     attributes:
       label: 4. Title
