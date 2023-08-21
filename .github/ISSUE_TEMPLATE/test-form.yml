@@ -11,8 +11,8 @@ body:
     attributes:
       label: 1. People in the loop
       description: "@ tag the people involved/cc'd"
-      placeholder:
-      value: "{{ PERSON THIS TASK IS FROM }}, {{ PERSON YOU ARE GIVING THIS TASK }}"
+      placeholder: {{ PERSON THIS TASK IS FROM }}, {{ PERSON YOU ARE GIVING THIS TASK }}
+      value: 
     validations:
       required: true
   - type: input
