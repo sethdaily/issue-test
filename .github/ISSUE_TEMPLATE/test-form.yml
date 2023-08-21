@@ -10,7 +10,7 @@ body:
     id: template
     attributes:
       label: Template
-      description: Link a design template or a page to copy (e.g. a Consulting page or a Training page).
+      description: Link a design template or a page to copy for the style/format of the new page (e.g. a Consulting page or a Training page).
       placeholder: Link your template here
       value: "{{ PAGE TEMPLATE }}"
     validations:
