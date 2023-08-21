@@ -11,7 +11,7 @@ body:
     attributes:
       label: 1. Template
       description: Style/format - Link a design template or a page to copy (e.g. a Consulting page or a Training page).
-      placeholder: Link your template here
+      placeholder:
       value: "{{ PAGE TEMPLATE }}"
     validations:
       required: true
@@ -19,8 +19,10 @@ body:
     id: URI
     attributes:
       label: 2. URI
-      description: Use keywords and make it [as short as possible](https://www.ssw.com.au/rules/create-friendly-short-urls/). Use [kebab case](https://www.ssw.com.au/rules/use-dashes-in-urls) (e.g. use-dashes-and-lowercase)
-      placeholder: write-your-uri-here
+      description: "Details: Concise and including keywords. Use [kebab case](https://www.ssw.com.au/rules/use-dashes-in-urls) (e.g. use-dashes-and-lowercase). 
+      
+      Length: [As short as possible](https://www.ssw.com.au/rules/create-friendly-short-urls/)"
+      placeholder:
       value: "{{ URI }}"
     validations:
       required: true
@@ -31,7 +33,7 @@ body:
       description: "Details: Must read well and include keywords (Google-able).
       
       Length: Must be under 60 characters"  
-      placeholder: Your page title
+      placeholder:
       value: "{{ TITLE }}"
     validations:
       required: true
