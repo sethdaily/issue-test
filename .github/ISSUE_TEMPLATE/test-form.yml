@@ -9,7 +9,7 @@ body:
   - type: textarea
     id: question
     attributes:
-      label: Template
+      label: "Template"
       description: Link a design template or a page to copy (e.g. a Consulting page or a Training page).
       placeholder: {{ PAGE TEMPLATE }}
       value: "A bug happened!"
