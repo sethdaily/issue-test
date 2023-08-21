@@ -62,6 +62,7 @@ body:
   - type: markdown
     attributes:
       value: "**Content** - follow these guidelines:  
+      
       Headings – Next to each heading, note in (parentheses) an HTML title tag - H1 for the main title (only 1 per page) H2 for subheadings, H3 etc... Each heading must include keywords.  
         
           * [Example](https://www.ssw.com.au/industry/educational):  
