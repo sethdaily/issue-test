@@ -61,13 +61,13 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: "**Content** - follow these guidelines:
+      value: "**Content** - follow these guidelines:  
       Headings – Next to each heading, note in (parentheses) an HTML title tag - H1 for the main title (only 1 per page) H2 for subheadings, H3 etc... Each heading must include keywords.  
         
-        * [Example](https://www.ssw.com.au/industry/educational):  
-        (H1) SSW Educational  
-        (H2) Overview  
-        (H2) How SSW can help: Customized technology solutions
+          * [Example](https://www.ssw.com.au/industry/educational):  
+          (H1) SSW Educational  
+          (H2) Overview  
+          (H2) How SSW can help: Customized technology solutions
 
 
 Images – Under each image, note the caption and alt text (describes the image to search engines)  
