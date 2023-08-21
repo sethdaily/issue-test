@@ -10,8 +10,8 @@ body:
     id: template
     attributes:
       label: Template
-      description: Also tell us, what did you expect to happen?
+      description: Link a design template or a page to copy (e.g. a Consulting page or a Training page).
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: "{{ PAGE TEMPLATE }}"
     validations:
       required: true
