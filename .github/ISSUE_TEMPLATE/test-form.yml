@@ -1,6 +1,6 @@
 name: ✨ New Webpage
-description: File a bug report
-title: "[Bug]: "
+description: Start here to request/create a new page
+title: "✨ [Title]: "
 body:
   - type: markdown
     attributes:
