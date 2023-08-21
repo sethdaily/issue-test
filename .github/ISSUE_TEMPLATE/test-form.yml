@@ -28,8 +28,8 @@ body:
     id: title
     attributes:
       label: 3. Title
-      description: Must read well and include keywords (Google-able). Length - under 60 characters  
-      placeholder: Link your template here
+      description: Must read well and include keywords (Google-able). Length/: under 60 characters  
+      placeholder: 
       value: "{{ TITLE }}"
     validations:
       required: true
