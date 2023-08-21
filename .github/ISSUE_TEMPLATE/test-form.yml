@@ -39,10 +39,10 @@ body:
     id: meta
     attributes:
       label: 4. Meta description
-      description: Must read well and include keywords (Google-able). Must be under 60 characters  
-      placeholder: "Details: For search engines - summary of the page using the important keywords.
+      description: "Details: For search engines - summary of the page using the important keywords.
       Length: under 150 characters. 
       Tip: You can give ChatGPT your content and ask for a meta description."
-      value: "{{ TITLE }}"
+      placeholder:
+      value: "{{ META DESCRIPTION }}"
     validations:
       required: true
