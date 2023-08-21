@@ -7,7 +7,7 @@ body:
       value: |
         Start here to request/create a new page
   - type: textarea
-    id: what-happened
+    id: template
     attributes:
       label: What happened?
       description: Also tell us, what did you expect to happen?
