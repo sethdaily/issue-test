@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        "Fill out the below fields with information about your new page:"
+        Fill out the below fields with information about your new page:
   - type: textarea
     id: cc
     attributes:
