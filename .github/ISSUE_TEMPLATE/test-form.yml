@@ -42,9 +42,20 @@ body:
     attributes:
       label: 4. Meta description
       description: "Details: For search engines - summary of the page using the important keywords.
+      
       Length: under 150 characters. 
+      
       Tip: You can give ChatGPT your content and ask for a meta description."
       placeholder:
       value: "{{ META DESCRIPTION }}"
+    validations:
+      required: true
+  - type: textarea
+    id: related
+    attributes:
+      label: 5. Related URLs
+      description: If applicable, related pages on the SSW website.
+      placeholder:
+      value: "{{ RELATED URLS }}"
     validations:
       required: true
