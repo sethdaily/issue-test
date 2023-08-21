@@ -1,17 +1,21 @@
-name: New webpage
-description: Start here to request/create a new page
-title: "✨ [Title]: "
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
+projects: ["octo-org/1", "octo-org/44"]
+assignees:
+  - octocat
 body:
- - type: markdown
+  - type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: textarea
-    id: question
+    id: what-happened
     attributes:
-      label: "Template"
-      description: Link a design template or a page to copy (e.g. a Consulting page or a Training page).
-      placeholder: {{ PAGE TEMPLATE }}
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
       value: "A bug happened!"
     validations:
       required: true
