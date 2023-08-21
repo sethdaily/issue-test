@@ -59,3 +59,15 @@ body:
       value: "{{ RELATED URLS }}"
     validations:
       required: true
+- type: markdown
+  attributes:
+    value: "Thanks for completing our form!"
+  - type: textarea
+    id: content
+    attributes:
+      label: 6. Content
+      description: If applicable, related pages on the SSW website.
+      placeholder:
+      value: "{{ RELATED URLS }}"
+    validations:
+      required: true
