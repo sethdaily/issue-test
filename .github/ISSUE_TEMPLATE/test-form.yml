@@ -16,7 +16,7 @@ body:
     validations:
       required: true
 - type: textarea
-    id: what-happened
+    id: what-happend
     attributes:
       label: What happened?
       description: Also tell us, what did you expect to happen?
