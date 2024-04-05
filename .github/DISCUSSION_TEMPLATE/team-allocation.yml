@@ -1,11 +1,6 @@
 title: "Team Allocations - {{ LOCATION YEAR e.g. Brisbane 2024 }}"
 labels: ["Team allocation"]
 body:
-  - type: markdown
-    value: "## Welcome!"
-  - type: markdown
-    attributes:
-      value: "Thanks for taking the time to start a new discussion! If you need real-time help, join us on Discord."
   - type: textarea
     id: improvements
     attributes:
