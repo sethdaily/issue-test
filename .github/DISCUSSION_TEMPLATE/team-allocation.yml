@@ -24,7 +24,6 @@ body:
       label: "Team list:"
       description: Copy this for each team
       value: |
-
         ## Team 1 - [Product Owner Masters](https://github.com/SSWConsulting/SSW.Brainstorming/discussions/23)
         [Presentation Template + Other Documentation](https://sswcom.sharepoint.com/:f:/s/BrisbaneBrainstorming2024/EgAMWryDd1NPlR93TPStNQYBayt-mRH7XPK1qIzahJ14dQ?e=0aUHXE)
         Stakeholders: 
