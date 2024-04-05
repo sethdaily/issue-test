@@ -5,7 +5,7 @@ body:
     id: intro
     attributes:
       label: "Hi All,"
-      description: You can leave this intro as is, or edit if needed
+      description: This is the intro - you can leave as is, or edit if needed
       value: |
         We want teams to be ready to go on the day, that's why we now pre-allocate the teams. See the team allocations below.
         
