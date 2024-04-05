@@ -19,11 +19,6 @@ body:
         ## Team 1 - [{{ TEAM NAME }}]({{ URL TO GITHUB DISCUSSION }})
         [Presentation Template + Other Documentation](https://sswcom.sharepoint.com/:f:/s/BrisbaneBrainstorming2024/EgAMWryDd1NPlR93TPStNQYBayt-mRH7XPK1qIzahJ14dQ?e=0aUHXE)
         
-        ⛺ Stakeholders: 
-        - {{ STAKEHOLDER 1 }}
-        - {{ STAKEHOLDER 2 }}
-        - ...
-        
         🏀 Team:
         - {{ MEMBER 1 }}
         - {{ MEMBER 2 }}
