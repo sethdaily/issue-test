@@ -1,0 +1,11 @@
+title: "Team Allocations - {{ LOCATION YEAR e.g. Brisbane 2024 }}"
+labels: ["Team allocation"]
+body:
+  - type: textarea
+    id: pain
+    attributes:
+      label: ❌ The Pain
+      placeholder: |
+        The pain of the problem we are trying to solve
+    validations:
+      required: true
