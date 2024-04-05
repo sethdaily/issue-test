@@ -2,9 +2,9 @@ title: "Team Allocations - {{ LOCATION YEAR e.g. Brisbane 2024 }}"
 labels: ["Team allocation"]
 body:
   body:
-- type: markdown
+  - type: markdown
   value: "## Welcome!"
-- type: markdown
+  - type: markdown
   attributes:
     value: |
       Thanks for taking the time to start a new discussion! If you need real-time help, join us on Discord.
