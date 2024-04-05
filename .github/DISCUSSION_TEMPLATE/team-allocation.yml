@@ -5,11 +5,13 @@ body:
     id: intro
     attributes:
       label: "Hi All,"
-      description: This is the intro - you can leave as is, or edit if needed
+      description: This is the intro - fill in the placeholders
       value: |
         We want teams to be ready to go on the day, that's why we now pre-allocate the teams. See the team allocations below.
                         
         👑 [Idea Champion](https://www.ssw.com.au/rules/brainstorming-idea-champion/) - The person who will advocate for the idea after the brainstorming day, until it is officially approved or parked.
+        
+        Test Pleases at {{ TIME (SHOULD BE 1.5HRS BEFORE THE FIRST PRESENTATION) }} – so you have enough time to go through the entire presentation and then action the feedback.
         
         Let me know if there are any concerns 😊
         
