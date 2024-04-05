@@ -8,7 +8,6 @@ body:
       value: |
         Thanks for taking the time to start a new discussion! If you need real-time help, join us on Discord.
   - type: textarea
-      id: pain
       attributes:
         label: ❌ The Pain
         placeholder: |
