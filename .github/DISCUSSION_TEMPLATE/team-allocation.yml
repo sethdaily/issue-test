@@ -21,7 +21,7 @@ body:
   - type: textarea
     id: team list
     attributes:
-      label: Team list:
+      label: "Team list:"
       description: Copy this for each team
       value: |
 
