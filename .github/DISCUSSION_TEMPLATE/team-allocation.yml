@@ -19,7 +19,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: team list
+    id: team-list
     attributes:
       label: "Team list:"
       description: Copy this for each team
