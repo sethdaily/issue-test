@@ -1,7 +1,6 @@
 title: "Team Allocations - {{ LOCATION YEAR e.g. Brisbane 2024 }}"
 labels: ["Team allocation"]
 body:
-  body:
   - type: markdown
   value: "## Welcome!"
   - type: markdown
