@@ -5,9 +5,9 @@ body:
     id: intro
     attributes:
       label: "Hi All,"
-      description: Edit this intro as needed
+      description: You can leave this intro as is, or edit if needed
       value: |
-        We want teams to be ready to go on the day, that's why we now pre-allocate the teams. Here are the team allocations.
+        We want teams to be ready to go on the day, that's why we now pre-allocate the teams. See the team allocations below.
         
         Stakeholders – People you should have corridor conversations with prior to as well as throughout the day. They would also be a good choice for your PowerPoint Test Please.
                 
@@ -21,20 +21,23 @@ body:
   - type: textarea
     id: team-list
     attributes:
-      label: "Here are the teams:"
+      label:
       description: Copy/paste for each team and fill in the placeholders
       value: |
         ## Team 1 - [{{ TEAM NAME }}]({{ URL TO GITHUB DISCUSSION }})
         [Presentation Template + Other Documentation](https://sswcom.sharepoint.com/:f:/s/BrisbaneBrainstorming2024/EgAMWryDd1NPlR93TPStNQYBayt-mRH7XPK1qIzahJ14dQ?e=0aUHXE)
         
-        Stakeholders: 
-        - {{ STAKEHOLDER #1 }}
-        - {{ STAKEHOLDER #2 }}
+        ⛺ Stakeholders: 
+        - {{ STAKEHOLDER 1 }}
+        - {{ STAKEHOLDER 2 }}
         - ...
         
-        Team:
-        - {{ MEMBER #1 }}
-        - {{ MEMBER #2 }}
+        🏀 Team:
+        - {{ MEMBER 1 }}
+        - {{ MEMBER 2 }}
         - ...
+
+        👑 Idea Champion:
+        - {{ NAME }}
     validations:
       required: true
