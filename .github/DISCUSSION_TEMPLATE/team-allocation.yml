@@ -4,7 +4,7 @@ body:
   - type: textarea
     id: intro
     attributes:
-      label: Hi All
+      label: "Hi All,"
       description: Edit this intro as needed
       value: |
         We want teams to be ready to go on the day, that's why we now pre-allocate the teams. Here are the team allocations.
@@ -21,7 +21,7 @@ body:
   - type: textarea
     id: team-list
     attributes:
-      label: "Team list:"
+      label: "Here are the teams:"
       description: Copy/paste for each team and fill in the placeholders
       value: |
         ## Team 1 - [{{ TEAM NAME }}]({{ URL TO GITHUB DISCUSSION }})
