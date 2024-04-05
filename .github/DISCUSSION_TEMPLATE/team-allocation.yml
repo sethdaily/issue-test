@@ -17,12 +17,12 @@ body:
         1. Review your team idea and prepare for the day.
         
         ## Team 1 - [{{ TEAM NAME }}]({{ URL TO GITHUB DISCUSSION }})
-        [Presentation Template + Other Documentation](https://sswcom.sharepoint.com/:f:/s/BrisbaneBrainstorming2024/EgAMWryDd1NPlR93TPStNQYBayt-mRH7XPK1qIzahJ14dQ?e=0aUHXE)
+        [Presentation Template + Other Documentation]({{ SHAREPOINT - LINK TO PPTX TEMPLATE FOR THE GROUP }})
         
         🏀 Team:
         - {{ MEMBER 1 }}
         - {{ MEMBER 2 }}
-        - ...
+        - {{ ... }}
 
         👑 Idea Champion:
         - {{ NAME }}
