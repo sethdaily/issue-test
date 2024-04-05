@@ -22,12 +22,13 @@ body:
     id: team-list
     attributes:
       label: "Team list:"
-      description: Copy this for each team
+      description: Copy/paste for each team and fill in the placeholders
       value: |
-        ## Team 1 - [Product Owner Masters](https://github.com/SSWConsulting/SSW.Brainstorming/discussions/23)
+        ## Team 1 - [{{ TEAM NAME }}]({{ URL TO GITHUB DISCUSSION }})
         [Presentation Template + Other Documentation](https://sswcom.sharepoint.com/:f:/s/BrisbaneBrainstorming2024/EgAMWryDd1NPlR93TPStNQYBayt-mRH7XPK1qIzahJ14dQ?e=0aUHXE)
         Stakeholders: 
-        - [The Bench Masters](https://ssw.crm6.dynamics.com/main.aspx?appid=ceb1e6d5-a0f3-ed11-8849-002248188bd5&pagetype=entityrecord&etn=ssw_responsibility&id=400c994a-8535-ee11-bdf5-6045bd3df09b) (especially Adam)
+        - {{ STAKEHOLDER #1 }}
+        - {{ STAKEHOLDER #2 }}
         Team:
         - Jean Thirion
         - Gert Marx
