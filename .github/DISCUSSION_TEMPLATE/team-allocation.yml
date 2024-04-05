@@ -1,11 +1,6 @@
 title: "Team Allocations - {{ LOCATION YEAR e.g. Brisbane 2024 }}"
 labels: ["Team allocation"]
 body:
-"This is markdown"
-
-### this is a heading
-
-
   - type: textarea
     id: pain
     attributes:
