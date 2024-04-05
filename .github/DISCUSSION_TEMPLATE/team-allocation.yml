@@ -22,7 +22,7 @@ body:
     id: team-list
     attributes:
       label: "Here are the teams:"
-      description: Copy/paste for each team and fill in the placeholders
+      description: Duplicate this for each team, and fill in the placeholders
       value: |
         ## Team 1 - [{{ TEAM NAME }}]({{ URL TO GITHUB DISCUSSION }})
         [Presentation Template + Other Documentation](https://sswcom.sharepoint.com/:f:/s/BrisbaneBrainstorming2024/EgAMWryDd1NPlR93TPStNQYBayt-mRH7XPK1qIzahJ14dQ?e=0aUHXE)
