@@ -1,21 +1,29 @@
 title: "Team Allocations - {{ LOCATION YEAR e.g. Brisbane 2024 }}"
 labels: ["Team allocation"]
 body:
+  body:
+- type: markdown
+  value: "## Welcome!"
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to start a new discussion! If you need real-time help, join us on Discord.
   - type: textarea
     id: pain
     attributes:
       label: ❌ The Pain
       placeholder: |
         The pain of the problem we are trying to solve
-    value: "Hi All,
-We want teams to be ready to go on the day, that's why we now pre-allocate the teams. Here are the team allocations.
+    value: |
+    "Hi All, |
+    " We want teams to be ready to go on the day, that's why we now pre-allocate the teams. Here are the team allocations.
 
-Stakeholders – People you should have corridor conversations with prior to as well as throughout the day. They would also be a good choice for your PowerPoint Test Please.
+    " Stakeholders – People you should have corridor conversations with prior to as well as throughout the day. They would also be a good choice for your PowerPoint Test Please.
 
-Test Pleases at 2pm – so you have enough time to go through the entire presentation and then action the feedback.
+    " Test Pleases at 2pm – so you have enough time to go through the entire presentation and then action the feedback.
 
-If a stakeholder is not available, grab any person (who isn't on your team)!
-Let me know if there are any concerns 😊
+    " If a stakeholder is not available, grab any person (who isn't on your team)!
+    " Let me know if there are any concerns 😊
 
 Review your team idea and prepare for the day."
     validations:
