@@ -5,7 +5,7 @@ body:
     id: improvements
     attributes:
       label: Top 3 improvements
-      description: |
+      description: Edit this as needed
       value: |
         We want teams to be ready to go on the day, that's why we now pre-allocate the teams. Here are the team allocations.
         Stakeholders – People you should have corridor conversations with prior to as well as throughout the day. They would also be a good choice for your PowerPoint Test Please.
