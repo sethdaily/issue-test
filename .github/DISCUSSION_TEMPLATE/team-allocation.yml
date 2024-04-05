@@ -27,6 +27,6 @@ body:
         👑 Idea Champion:
         - {{ NAME }}
 
-        ... {{ DUPLICATE FOR OTHER TEAMS }}
+        {{ ...DUPLICATE FOR OTHER TEAMS }}
     validations:
       required: true
