@@ -29,9 +29,10 @@ body:
         Stakeholders: 
         - {{ STAKEHOLDER #1 }}
         - {{ STAKEHOLDER #2 }}
+        - ...
         Team:
-        - Jean Thirion
-        - Gert Marx
-        - Isabel Sandstroem
+        - {{ MEMBER #1 }}
+        - {{ MEMBER #2 }}
+        - ...
     validations:
       required: true
