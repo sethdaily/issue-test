@@ -7,10 +7,16 @@ body:
     attributes:
       value: |
         Thanks for taking the time to start a new discussion! If you need real-time help, join us on Discord.
-  - type: textarea
-    attributes:
-        label: ❌ The Pain
-        placeholder: |
-          The pain of the problem we are trying to solve
-      validations:
-        required: true
+- type: textarea
+  id: improvements
+  attributes:
+    label: Top 3 improvements
+    description: "What are the top 3 improvements we could make to this project?"
+    value: |
+      1.
+      2.
+      3.
+      ...
+    render: bash
+  validations:
+    required: true
