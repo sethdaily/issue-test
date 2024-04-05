@@ -5,7 +5,6 @@ body:
     id: intro
     attributes:
       label: "Hi All,"
-      description: This is the intro - fill in the placeholders
       value: |
         We want teams to be ready to go on the day, that's why we now pre-allocate the teams. See the team allocations below.
                         
@@ -16,14 +15,7 @@ body:
         Let me know if there are any concerns 😊
         
         1. Review your team idea and prepare for the day.
-    validations:
-      required: true
-  - type: textarea
-    id: team-list
-    attributes:
-      label: "Here are the teams:"
-      description: Duplicate this for each team, and fill in the placeholders
-      value: |
+        
         ## Team 1 - [{{ TEAM NAME }}]({{ URL TO GITHUB DISCUSSION }})
         [Presentation Template + Other Documentation](https://sswcom.sharepoint.com/:f:/s/BrisbaneBrainstorming2024/EgAMWryDd1NPlR93TPStNQYBayt-mRH7XPK1qIzahJ14dQ?e=0aUHXE)
         
@@ -39,5 +31,7 @@ body:
 
         👑 Idea Champion:
         - {{ NAME }}
+
+        ... {{ DUPLICATE FOR OTHER TEAMS }}
     validations:
       required: true
