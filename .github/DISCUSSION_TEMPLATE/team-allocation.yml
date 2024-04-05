@@ -2,12 +2,11 @@ title: "Team Allocations - {{ LOCATION YEAR e.g. Brisbane 2024 }}"
 labels: ["Team allocation"]
 body:
   - type: textarea
-    id: heading
+    id: intro
     attributes:
-      label: Edit this as needed
-      description: Not needed
+      label: Hi All
+      description: Edit this intro as needed
       value: |
-        ### Hi All
         We want teams to be ready to go on the day, that's why we now pre-allocate the teams. Here are the team allocations.
         
         Stakeholders – People you should have corridor conversations with prior to as well as throughout the day. They would also be a good choice for your PowerPoint Test Please.
@@ -17,5 +16,22 @@ body:
         Let me know if there are any concerns 😊
         
         1. Review your team idea and prepare for the day.
+    validations:
+      required: true
+  - type: textarea
+    id: team list
+    attributes:
+      label: Team list:
+      description: Copy this for each team
+      value: |
+
+        ## Team 1 - [Product Owner Masters](https://github.com/SSWConsulting/SSW.Brainstorming/discussions/23)
+        [Presentation Template + Other Documentation](https://sswcom.sharepoint.com/:f:/s/BrisbaneBrainstorming2024/EgAMWryDd1NPlR93TPStNQYBayt-mRH7XPK1qIzahJ14dQ?e=0aUHXE)
+        Stakeholders: 
+        - [The Bench Masters](https://ssw.crm6.dynamics.com/main.aspx?appid=ceb1e6d5-a0f3-ed11-8849-002248188bd5&pagetype=entityrecord&etn=ssw_responsibility&id=400c994a-8535-ee11-bdf5-6045bd3df09b) (especially Adam)
+        Team:
+        - Jean Thirion
+        - Gert Marx
+        - Isabel Sandstroem
     validations:
       required: true
